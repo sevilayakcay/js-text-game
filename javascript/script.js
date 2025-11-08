@@ -59,7 +59,7 @@ for (let i = 1; i <= playTime; i++) {
       alert(`YOU LOST ALL YOUR LIVES! ${randomEnemy.toUpperCase()} GOT THE PRINCESS`);
       break;
     }
-  } else if (randomEnemy <= 9) {
+  } else if (i <= 9) {
     alert(`You met with ${randomEnemy}!`);
     lifeCount--;
     lifeCounter(lifeCount);
