@@ -25,8 +25,6 @@ for (let i = 1; i <= playTime; i++) {
 
   let direction = prompt(`PlayTime ${i}: Choose your move  ${moves.join(",")}`);
 
-  let randomKey = Math.floor(Math.random() * 14);
-
   const lifeCounter = (lifeCount) => {
     alert(`${lifeCount} lives left.`);
   };
